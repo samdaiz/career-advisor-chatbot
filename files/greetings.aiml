@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+    <category>
+        <pattern>HOWDY</pattern>
+        <template><delay>2</delay>Hello! My name is Career Advisor. Who do I have the pleasure of speaking with? (I am...)</template>
+    </category>
+    
+    <category>
+        <pattern>HI</pattern>
+        <template><delay>2</delay>Hello! My name is Career Advisor. Who do I have the pleasure of speaking with? (I am...)</template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template><delay>2</delay>Hello! My name is Career Advisor. Who do I have the pleasure of speaking with? (I am...)</template>
+    </category>
+	
+</aiml>

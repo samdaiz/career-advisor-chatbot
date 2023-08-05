@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>SOFTENG</pattern>
+	    <template>
+	        <delay>3</delay>The role of software engineer seems to be a great fit for you!
+	        You are imaginative, analytical, and an extrovert which makes you a perfect candidate!
+	        Software engineers take the role of building, upkeeping, and maintaining a code repository.
+	        Your expected salary is $109,020 according to the U.S. Bureau of Labor Statistics.
+	        Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DATAANALYST</pattern>
+        <template>
+            <delay>3</delay>A data analyst role would be perfect for you!
+            You are imaginative, analytical, and an introvert which makes you a perfect candidate!
+            Data analysts collect and clean unorganzied data to present it in a meaningful manner.
+            Your expected salary is $100,910 according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WEBDESIGN</pattern>
+        <template>
+            <delay>3</delay>Role the drums... <delay>2</delay> web designer!
+            You are imaginative, not analytical, and an extrovert!
+            Web designers focuses on the front end of the web development process by modernizing and upkeeping web content. 
+            Web designers make an estimated $78,300 annually according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ITSUPPORT</pattern>
+        <template>
+            <delay>3</delay>You would make a great fit for IT support!
+            IT support help detect problems in computers, monitors, or servers and fixes these issues.
+            This type of role can be found in any sector of the economy. 
+            IT support specialists make an estimated $56,910 annually according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CYBER</pattern>
+        <template>
+            <delay>3</delay>You match with the role of cybersecurity specialist!
+            Cyber attacks cost corporations tons of money.
+            Cybersecurity specialists help mitigate and prevent cyber attacks by protecting networks and data systems.
+            They are a crucial role to a tech company.
+            Cybersecurity specialists make an estimated 102,600 annually according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NETWORKDESIGN</pattern>
+        <template>
+            <delay>3</delay>You should do more research on becoming a Newtork Designer! 
+            Network designers plan, setup, and install servers and other network components for a business.
+            Network designers make an estimated $120,520 annually according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PROJMANAG</pattern>
+        <template>
+            <delay>3</delay>Consider becoming a Project Manager!
+            Project managers meet deadline for goals set by the company through strategic approach.
+            There is a lot of communication that goes in this role.
+            Project managers make an estimated 94,500 annually according to the U.S. Bureau of Labor Statistics.
+            Hope this helped! To run another questionaire say "continue."
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ANSWEREDNOTOEVERYTHING</pattern>
+        <template>
+            <delay>3</delay>Mmmm... you seem to not meet the qualifications for me to recommend you a job in my repository!
+            Don't worry! The computer industry is filled with hundreds of unique roles!
+            You should considered reevaluating your strengths.
+            Whenever you are ready, comeback and say "Hi" for a reevaluation!
+        </template>
+    </category>
+	
+</aiml>

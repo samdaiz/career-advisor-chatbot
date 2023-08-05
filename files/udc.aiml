@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>*</pattern>
+        <template><delay>3</delay>I apologize, I am unable to answer that. You can always start from the beginning by saying "Hi".</template>
+    </category>
+    
+    <category>
+        <pattern>^ <set>greetings</set> ^</pattern>
+        <template><delay>2</delay>Hello! My name is Career Advisor. Who do I have the pleasure of speaking with? (I am...)</template>
+    </category>
+    
+    <category>
+        <pattern>I AM *</pattern>
+        <template><delay>4</delay>Nice meeting you, <set name = "username"><star /></set>. My goal is to recommend you a career based on a short survey regarding your interests. Shall we begin? (Yes, No)</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <template><delay>2</delay>No worries, let me know when you are ready! Say "Continue" whenever you are ready.</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <template><delay>3</delay>Awesome! I'll begin the short questionaire, make sure to reply with the answer that best matches you.<delay>2</delay>First things first, do you tend to be imaginative?
+            <button>
+                <text>yes</text>
+                <postback>YESIMAGINATIVE</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NOIMAGINATIVE</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CONTINUE</pattern>
+        <template><delay>1</delay>Alright, let's begin!<delay>2</delay>First things first, do you tend to be imaginative?
+            <button>
+                <text>yes</text>
+                <postback>YESIMAGINATIVE</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NOIMAGINATIVE</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YESIMAGINATIVE</pattern>
+        <template>
+            <delay>2</delay>Sweet, next question! Would you consider yourself an analytical thinker?
+            <button>
+                <text>yes</text>
+                <postback>YESIMAGINATIVEYESANALYTICAL</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>YESIMAGINATIVENOANALYTICAL</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NOIMAGINATIVE</pattern>
+        <template>
+            <delay>2</delay>Sweet, next question! Would you consider yourself an analytical thinker?
+            <button>
+                <text>yes</text>
+                <postback>NOIMAGINATIVEYESANALYTICAL</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NOIMAGINATIVENOANALYTICAL</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YESIMAGINATIVEYESANALYTICAL</pattern>
+        <template>
+            <delay>2</delay>Awesome, last question! Are you a social butterfly?
+            <button>
+                <text>yes</text>
+                <postback>SOFTENG</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>DATAANALYST</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YESIMAGINATIVENOANALYTICAL</pattern>
+        <template>
+            <delay>2</delay>No worries! Are you a social butterfly?
+            <button>
+                <text>yes</text>
+                <postback>WEBDESIGN</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>ITSUPPORT</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NOIMAGINATIVEYESANALYTICAL</pattern>
+        <template>
+            <delay>2</delay>Awesome, last question! Are you a social butterfly?
+            <button>
+                <text>yes</text>
+                <postback>CYBER</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NETWORKDESIGN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NOIMAGINATIVENOANALYTICAL</pattern>
+        <template>
+            <delay>2</delay>No worries! Are you a social butterfly?
+            <button>
+                <text>yes</text>
+                <postback>PROJMANAG</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NOTOALL</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>
